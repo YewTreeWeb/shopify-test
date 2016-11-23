@@ -7,7 +7,7 @@
     - http://docs.shopify.com/themes/liquid-variables/global
 {% endcomment %}
 
-<img src="{{ 'hero.png' | asset_url }}" alt="{{ shop.name }}"/>
+<img class="heroImg" src="{{ 'hero.png' | asset_url }}" alt="{{ image.alt }}"/>
 
 <h2>{{ 'homepage.sections.frontpage_title' | t }}</h2>
 
@@ -49,7 +49,7 @@
 </div>
 
 <hr>
-     
+
 <h2>{{ 'homepage.sections.featured_title' | t }}</h2>
 
 <div class="grid-uniform">
