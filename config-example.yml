@@ -1,0 +1,15 @@
+development:
+  store: example.myshopify.com
+  password: secret
+  theme_id: "live"
+  ignore_files:
+    - "*.swp"
+    - "*~"
+    - "config/settings_data.json"
+    - "config/settings.html"
+    - "*.png"
+    - "*.jpg"
+    - "*.jpeg"
+    - "*.gif"
+    - "*.pdf"
+    - "*.mp4"
